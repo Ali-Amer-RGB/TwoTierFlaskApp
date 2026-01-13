@@ -7,6 +7,13 @@ pipeline {
                 git branch: 'main', url: 'https://github.com/Ali-Amer-RGB/TwoTierFlaskApp.git'
             }
         }
+        stage('Debug files') {
+              steps {
+                    sh 'pwd'
+                    sh 'ls -la'
+                    sh 'find . -maxdepth 3 -type f -iname "dockerfile*" -print'
+              }            
+        }
         stage('Build Docker Image') {
             steps {
                 sh 'docker build -t flask-app:latest .'
