@@ -4,7 +4,7 @@ pipeline {
         stage('Clone Code') {
             steps {
                 // Replace with your GitHub repository URL
-                git branch: 'main', url: '[https://github.com/Ali-Amer-RGB/TwoTierFlaskApp.git](https://github.com/Ali-Amer-RGB/TwoTierFlaskApp.git)'
+                git branch: 'main', url: 'https://github.com/Ali-Amer-RGB/TwoTierFlaskApp.git'
             }
         }
         stage('Build Docker Image') {
