@@ -13,7 +13,7 @@ When running my first build, it threw an error and it was because I did not corr
 
 <img width="1392" height="477" alt="Screenshot 2026-01-13 135320" src="https://github.com/user-attachments/assets/1ff274d9-5ed1-4df5-ab36-27a3bb874a0f" />
 
-After running multiple builds and fixing errors as I went along, I managed to run a successful build
+After running multiple builds and fixing errors as I went along, I managed to run a successful build. From my memory, the errors included missing a requirements.txt file and using outdated commands.
 
 <img width="889" height="477" alt="Screenshot 2026-01-13 172808" src="https://github.com/user-attachments/assets/43ae85b1-410b-4e2d-b380-5f2c4c6d261a" />
 
